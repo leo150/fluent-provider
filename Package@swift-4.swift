@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/fluent.git", .upToNextMajor(from: "2.4.0")),
-        .package(url: "https://github.com/vapor/vapor.git", .upToNextMajor(from: "2.1.0")),
+        .package(url: "https://github.com/leo150/vapor.git", .upToNextMajor(from: "2.4.4")),
     ],
     targets: [
         .target(name: "FluentProvider", dependencies: ["Vapor", "Fluent"]),
